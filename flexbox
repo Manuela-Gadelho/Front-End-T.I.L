@@ -1,0 +1,10 @@
+Flexbox
+Durante essa aula, recorremos ao flexbox para construir o header e com isso colocar os elementos posicionados um ao lado do outro. O flexbox funciona ao colocar a propriedade display:flex em um elemento de bloco, transformando ele em um flex-container e os seus filhos em flex-itens. Caso você queira saber mais sobre flexbox, nós temos o artigo “Flexbox CSS: Guia Completo, Elementos e Exemplos” e o Alura+ “CSS FlexBox: Dicas para começar”, ambos feitos pela instrutora Juliana Amoasei pra te ajudar no aprendizado desse assunto.
+
+Interação com clique?
+Ao construir a interação do usuário com o ícone do menu hambúrguer, aplicamos uma label associada ao id de um input checkbox. Esse tipo de interação sem o uso de Javascript também pode ser usado para outros casos, como é feito no Alura+ “Animação de coração: um projeto em HTML/CSS”, em que simulamos uma animação de preenchimento quando o ícone de coração é clicado.
+
+Positions
+Ainda no menu hambúrguer, tivemos que usar as positions para posicionar a lista de links no lugar certo: abaixo do header. No header, colocamos a position relative, que permite aplicar propriedades como top, bottom, left e right. Já na lista, colocamos o absolute, que posiciona o elemento de acordo com outro que esteja em posição diferente de static (nesse caso, o elemento do menu). Para entender melhor sobre positions para usar em outros projetos, temos o artigo “Entenda a propriedade position CSS” feito pelo instrutor Luan Alves.
+
+Por fim, tanto no desenvolvimento desse projeto, quanto em todos que você participará na jornada da carreira da pessoa desenvolvedora, é importante saber sobre as diferenças unidades responsivas para utilizar nas suas páginas. E pra isso também temos um conteúdo extra que pode te auxiliar: o artigo “Guia de unidades no CSS”, feito pelo Paulo Scalercio.
